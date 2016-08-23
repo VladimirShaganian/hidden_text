@@ -6,5 +6,6 @@ len - number of chars to hide
 
 // EXAMPLE
 //
-// hidden_text( $('.more'), 15 );
-//
+//          hidden_text( $('.more'), 15 );
+//          before click: 1 (234) 567-89-...
+//          after click:  1 (234) 567-89-123
