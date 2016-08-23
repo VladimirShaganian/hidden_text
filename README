@@ -1,0 +1,10 @@
+Function for hide a part of text and show it after click on href
+(Depends on jQuery library)
+
+el - DOM element, target text container
+len - number of chars to hide
+
+// EXAMPLE
+//
+// hidden_text( $('.more'), 15 );
+//
