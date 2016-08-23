@@ -1,11 +1,14 @@
 Function for hide a part of text and show it after click on href
 (Depends on jQuery library)
 
+hidden_text(el, len);
 el - DOM element, target text container
 len - number of chars to hide
 
-// EXAMPLE
-//
-//          hidden_text( $('.more'), 15 );
-//          before click: 1 (234) 567-89-...
-//          after click:  1 (234) 567-89-123
+EXAMPLE:
+
+<div class="more">1 (234) 567-89-123</div>
+<script> hidden_text( $('.more'), 15 ); </script>
+--------------------------------------------------
+Before click: 1 (234) 567-89-...
+After click:  1 (234) 567-89-123
